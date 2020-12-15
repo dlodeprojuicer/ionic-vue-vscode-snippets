@@ -1,7 +1,7 @@
 {
     "name": "ionicvuesnippets",
-    "displayName": "Ionic-Vue Snippets",
-    "description": "Ionic-Vue Snippets",
+    "displayName": "Ionic Vue Snippets",
+    "description": "Quickly add ionic-vue component code by simply typing iv. The prefix will show a rage of snippets to choose from",
     "version": "0.1.2",
     "author": "Simo Mafuxwana",
     "publisher": "dlodeprojuicer",
