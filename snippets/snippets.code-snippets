@@ -1,0 +1,244 @@
+{
+  "ionic-vue Badge": {
+    "prefix": "ivbadge",
+    "body": [
+      "<ion-badge>${1:99}</ion-badge>"
+    ],
+    "description": "Creates ionc-vue badge"
+  },
+  "ionic-vue Button": {
+    "prefix": "ivbutton",
+    "body": [
+      "<ion-button>${1:Click}</ion-button>"
+    ],
+    "description": "Creates ionc-vue button"
+  },
+  "ionic-vue Ripple": {
+    "prefix": "ivripple",
+    "body": [
+      "<div class=\"ion-activatable ripple-parent\">",
+        "\t${1:A plain div with a bounded ripple effect}",
+        "\t<ion-ripple-effect></ion-ripple-effect>",
+      "</div>"
+    ],
+    "description": "Creates ionc-vue ripple effect"
+  },
+  "ionic-vue Card": {
+    "prefix": "ivcard",
+    "body": [
+      "<ion-card>",
+      "\t<ion-card-header>",
+        "\t\t<ion-card-subtitle>Card Subtitle</ion-card-subtitle>",
+        "\t\t<ion-card-title>Card Title</ion-card-title>",
+      "\t</ion-card-header>",
+      "\t<ion-card-content>",
+        "\t\tKeep close to Nature's heart... and break clear away, once in awhile,",
+        "\t\tand climb a mountain or spend a week in the woods. Wash your spirit clean.",
+      "\t</ion-card-content>",
+    "</ion-card>",
+    ],
+    "description": "Creates ionc-vue card"
+  },
+  "ionic-vue Checkbox": {
+    "prefix": "ivcheckbox",
+    "body": [
+      "<ion-checkbox></ion-checkbox>"
+    ],
+    "description": "Creates ionc-vue checkbox"
+  },
+  "ionic-vue Chip": {
+    "prefix": "ivchip",
+    "body": [
+      "<ion-chip>",
+        "\t<ion-label>Default</ion-label>",
+      "</ion-chip>"
+    ],
+    "description": "Creates ionc-vue chip"
+  },
+  "ionic-vue Datetime": {
+    "prefix": "ivdatetime",
+    "body": [
+      "<ion-item>",
+        "\t<ion-label>MMMM</ion-label>",
+        "\t<ion-datetime display-format=\"MMMM\" value=\"2012-12-15T13:47:20.789\"></ion-datetime>",
+      "</ion-item>"
+    ],
+    "description": "Creates ionc-vue datetime"
+  },
+  "ionic-vue FAB": {
+    "prefix": "ivfab",
+    "body": [
+      "<ion-fab vertical=\"bottom\" horizontal=\"start\" slot=\"fixed\">",
+        "\t<ion-fab-button>",
+          "\t\t<ion-icon name=\"arrow-up-circle\"></ion-icon>",
+        "\t</ion-fab-button>",
+      "</ion-fab>"
+    ],
+    "description": "Creates ionc-vue fab"
+  },
+  "ionic-vue Grid": {
+    "prefix": "ivgrid",
+    "body": [
+      "<ion-grid>",
+        "\t<ion-row>",
+          "\t\t<ion-col>",
+            "\t\t\tion-col",
+          "\t</ion-col>",
+          "\t\t<ion-col>",
+            "\t\t\tion-col",
+          "\t</ion-col>",
+          "\t\t<ion-col>",
+            "\t\t\tion-col",
+          "\t</ion-col>",
+          "\t\t<ion-col>",
+            "\t\t\tion-col",
+          "\t</ion-col>",
+        "\t</ion-row>",
+      "</ion-grid>"
+    ],
+    "description": "Creates ionc-vue grid"
+  },
+  "ionic-vue Icon": {
+    "prefix": "ivicon",
+    "body": [
+      "<ion-icon name=\"add-circle-outline\"></ion-icon>"
+    ],
+    "description": "Creates ionc-vue icon"
+  },
+  "ionic-vue Input": {
+    "prefix": "ivinput",
+    "body": [
+      "<ion-input></ion-input>"
+    ],
+    "description": "Creates ionc-vue input"
+  },
+  "ionic-vue Textarea": {
+    "prefix": "ivtextarea",
+    "body": [
+      "<ion-textarea></ion-textarea>"
+    ],
+    "description": "Creates ionc-vue textarea"
+  },
+  "ionic-vue Item": {
+    "prefix": "ivitem",
+    "body": [
+      "<ion-item>",
+        "\t<ion-label>",
+          "\t\t${1:Item}",
+        "\t</ion-label>",
+      "</ion-item>"
+    ],
+    "description": "Creates ionc-vue item"
+  },
+  "ionic-vue Item Divider": {
+    "prefix": "ivitemdivider",
+    "body": [
+      "<ion-item-divider>",
+        "\t<ion-label>",
+          "\t\t${1:Basic Item Divider}",
+        "\t</ion-label>",
+      "</ion-item-divider>"
+    ],
+    "description": "Creates ionc-vue item divider"
+  },
+  "ionic-vue Item Group": {
+    "prefix": "ivitemgroup",
+    "body": [
+      "<ion-item-group>",
+        "\t<ion-item>",
+          "\t\t<ion-label>Angola</ion-label>",
+        "\t</ion-item>",
+        "\t<ion-item>",
+          "\t\t<ion-label>Argentina</ion-label>",
+        "\t</ion-item>",
+        "\t<ion-item>",
+          "\t\t<ion-label>Armenia</ion-label>",
+        "\t</ion-item>",
+      "\t</ion-item-group>",
+    ],
+    "description": "Creates ionc-vue item group"
+  },
+  "ionic-vue Label": {
+    "prefix": "ivlabel",
+    "body": [
+      "<ion-label>Label</ion-label>"
+    ],
+    "description": "Creates ionc-vue label"
+  },
+  "ionic-vue List": {
+    "prefix": "ivlist",
+    "body": [
+      "<ion-list>",
+        "\t<ion-item>",
+          "\t\t<ion-label>Pokémon Yellow</ion-label>",
+        "\t</ion-item>",
+        "\t<ion-item>",
+          "\t\t<ion-label>Mega Man X</ion-label>",
+        "\t</ion-item>",
+        "\t<ion-item>",
+          "\t\t<ion-label>The Legend of Zelda</ion-label>",
+        "\t</ion-item>",
+        "\t<ion-item>",
+          "\t\t<ion-label>Pac-Man</ion-label>",
+        "\t</ion-item>",
+      "</ion-list>"
+    ],
+    "description": "Creates ionc-vue list"
+  },
+  "ionic-vue List Header": {
+    "prefix": "ivlistheader",
+    "body": [
+      "<ion-list-header>",
+        "\t<ion-label>List Header</ion-label>",
+      "</ion-list-header>"
+    ],
+    "description": "Creates ionc-vue list header"
+  },
+  "ionic-vue Avatar": {
+    "prefix": "ivavatar",
+    "body": [
+      "<ion-avatar>",
+        "\t<img src=\"https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y\">",
+      "</ion-avatar>"
+    ],
+    "description": "Creates ionc-vue avatar"
+  },
+  "ionic-vue Image": {
+    "prefix": "ivimage",
+    "body": [
+      "<ion-img :src=\"item.src\"></ion-img>",
+    ],
+    "description": "Creates ionc-vue image"
+  },
+  "ionic-vue Thumbnail": {
+    "prefix": "ivthumbnail",
+    "body": [
+      "<ion-thumbnail slot=\"start\">",
+        "\t<img :src=\"item.src\"></img>",
+      "</ion-thumbnail>",
+    ],
+    "description": "Creates ionc-vue thumbnail"
+  },
+  "ionic-vue Menu": {
+    "prefix": "ivmenu",
+    "body": [
+      "<ion-menu side=\"start\" menu-id=\"first\" content-id=\"main\">",
+        "\t<ion-header>",
+          "\t\t<ion-toolbar color=\"primary\">",
+            "\t\t\t<ion-title>Start Menu</ion-title>",
+          "\t\t</ion-toolbar>",
+        "\t</ion-header>",
+        "\t<ion-content>",
+          "\t\t<ion-list>",
+            "\t\t\t<ion-item>Menu Item</ion-item>",
+            "\t\t\t<ion-item>Menu Item</ion-item>",
+            "\t\t\t<ion-item>Menu Item</ion-item>",
+            "\t\t\t<ion-item>Menu Item</ion-item>",
+            "\t\t\t<ion-item>Menu Item</ion-item>",
+          "\t\t</ion-list>",
+        "\t</ion-content>",
+      "</ion-menu>",
+    ],
+    "description": "Creates ionc-vue menu"
+  }
+}
