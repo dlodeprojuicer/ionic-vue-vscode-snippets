@@ -28,7 +28,8 @@ All snippets are sourced from [ionic website](https://ionicframework.com/docs/co
 - Thumbnail
 - Menu
 
-![Using extension](/example.gif)
+![Extension gif](/example.gif)
+\!\[Extension gif\]\(/example.gif\)
 
 ## Known Issues
 
@@ -37,6 +38,10 @@ All snippets are sourced from [ionic website](https://ionicframework.com/docs/co
 - Snippets only when added on the top level and not working when added inside a `template` or `div` tag. [See stackoverflow post](https://stackoverflow.com/questions/65297548/how-to-add-vs-code-snippet-inside-a-template)
 
 ## Release Notes
+
+### 0.1.1
+
+Added keywords to package.json
 
 ### 0.1.0
 

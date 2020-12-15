@@ -7,14 +7,31 @@
     "publisher": "dlodeprojuicer",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dlodeprojuicer/vscode-ionic-vue"
+        "url": "https://github.com/dlodeprojuicer/ionic-vue-vscode-snippets"
     },
     "icon": "icon.jpg",
+    "bugs": {
+        "url": "https://github.com/dlodeprojuicer/ionic-vue-vscode-snippets/issues"
+      },
     "engines": {
         "vscode": "^1.52.0"
     },
     "categories": [
         "Snippets"
+    ],
+    "tags": [
+        "Snippets",
+        "Ionic",
+        "Vue",
+        "Ionic Vue",
+        "Ionic-Vue"
+    ],
+    "keywords": [
+        "Snippets",
+        "Ionic",
+        "Vue",
+        "Ionic Vue",
+        "Ionic-Vue"
     ],
     "contributes": {
         "snippets": [
@@ -31,5 +48,8 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "devDependencies": {
+        "@modus/ionic-vetur": "^1.0.2"
     }
 }
