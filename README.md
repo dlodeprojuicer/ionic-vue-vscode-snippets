@@ -29,15 +29,18 @@ All snippets are sourced from [ionic website](https://ionicframework.com/docs/co
 - Menu
 
 ![Extension gif](/example.gif)
+
 \!\[Extension gif\]\(/example.gif\)
 
 ## Known Issues
 
 - To use snippets effectively you will have to mannually import each ionic component used in the snippet `import { componetName } from @ionic/vue`. We are working on solving this issue.
 
-- Snippets only when added on the top level and not working when added inside a `template` or `div` tag. [See stackoverflow post](https://stackoverflow.com/questions/65297548/how-to-add-vs-code-snippet-inside-a-template)
-
 ## Release Notes
+
+### 0.1.2
+
+[Fix](https://stackoverflow.com/a/65302060/616221) snippet scope for vue-html.
 
 ### 0.1.1
 

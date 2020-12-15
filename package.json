@@ -2,7 +2,7 @@
     "name": "ionicvuesnippets",
     "displayName": "Ionic-Vue Snippets",
     "description": "Ionic-Vue Snippets",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "Simo Mafuxwana",
     "publisher": "dlodeprojuicer",
     "repository": {
@@ -45,6 +45,10 @@
             },
             {
                 "language": "vue",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "vue-html",
                 "path": "./snippets/snippets.code-snippets"
             }
         ]

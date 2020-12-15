@@ -1,6 +1,7 @@
 {
   "ionic-vue Badge": {
     "prefix": "ivbadge",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-badge>${1:99}</ion-badge>"
     ],
@@ -8,6 +9,7 @@
   },
   "ionic-vue Button": {
     "prefix": "ivbutton",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-button>${1:Click}</ion-button>"
     ],
@@ -15,6 +17,7 @@
   },
   "ionic-vue Ripple": {
     "prefix": "ivripple",
+    "scope": "html,vue,vue-html",
     "body": [
       "<div class=\"ion-activatable ripple-parent\">",
         "\t${1:A plain div with a bounded ripple effect}",
@@ -25,6 +28,7 @@
   },
   "ionic-vue Card": {
     "prefix": "ivcard",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-card>",
       "\t<ion-card-header>",
@@ -41,6 +45,7 @@
   },
   "ionic-vue Checkbox": {
     "prefix": "ivcheckbox",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-checkbox></ion-checkbox>"
     ],
@@ -48,6 +53,7 @@
   },
   "ionic-vue Chip": {
     "prefix": "ivchip",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-chip>",
         "\t<ion-label>Default</ion-label>",
@@ -57,6 +63,7 @@
   },
   "ionic-vue Datetime": {
     "prefix": "ivdatetime",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-item>",
         "\t<ion-label>MMMM</ion-label>",
@@ -67,6 +74,7 @@
   },
   "ionic-vue FAB": {
     "prefix": "ivfab",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-fab vertical=\"bottom\" horizontal=\"start\" slot=\"fixed\">",
         "\t<ion-fab-button>",
@@ -78,6 +86,7 @@
   },
   "ionic-vue Grid": {
     "prefix": "ivgrid",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-grid>",
         "\t<ion-row>",
@@ -100,6 +109,7 @@
   },
   "ionic-vue Icon": {
     "prefix": "ivicon",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-icon name=\"add-circle-outline\"></ion-icon>"
     ],
@@ -107,6 +117,7 @@
   },
   "ionic-vue Input": {
     "prefix": "ivinput",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-input></ion-input>"
     ],
@@ -114,6 +125,7 @@
   },
   "ionic-vue Textarea": {
     "prefix": "ivtextarea",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-textarea></ion-textarea>"
     ],
@@ -121,6 +133,7 @@
   },
   "ionic-vue Item": {
     "prefix": "ivitem",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-item>",
         "\t<ion-label>",
@@ -132,6 +145,7 @@
   },
   "ionic-vue Item Divider": {
     "prefix": "ivitemdivider",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-item-divider>",
         "\t<ion-label>",
@@ -143,6 +157,7 @@
   },
   "ionic-vue Item Group": {
     "prefix": "ivitemgroup",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-item-group>",
         "\t<ion-item>",
@@ -160,6 +175,7 @@
   },
   "ionic-vue Label": {
     "prefix": "ivlabel",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-label>Label</ion-label>"
     ],
@@ -167,6 +183,7 @@
   },
   "ionic-vue List": {
     "prefix": "ivlist",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-list>",
         "\t<ion-item>",
@@ -187,6 +204,7 @@
   },
   "ionic-vue List Header": {
     "prefix": "ivlistheader",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-list-header>",
         "\t<ion-label>List Header</ion-label>",
@@ -196,6 +214,7 @@
   },
   "ionic-vue Avatar": {
     "prefix": "ivavatar",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-avatar>",
         "\t<img src=\"https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y\">",
@@ -205,6 +224,7 @@
   },
   "ionic-vue Image": {
     "prefix": "ivimage",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-img :src=\"item.src\"></ion-img>",
     ],
@@ -212,6 +232,7 @@
   },
   "ionic-vue Thumbnail": {
     "prefix": "ivthumbnail",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-thumbnail slot=\"start\">",
         "\t<img :src=\"item.src\"></img>",
@@ -221,6 +242,7 @@
   },
   "ionic-vue Menu": {
     "prefix": "ivmenu",
+    "scope": "html,vue,vue-html",
     "body": [
       "<ion-menu side=\"start\" menu-id=\"first\" content-id=\"main\">",
         "\t<ion-header>",
