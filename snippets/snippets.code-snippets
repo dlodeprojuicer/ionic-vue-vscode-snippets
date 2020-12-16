@@ -92,16 +92,16 @@
         "\t<ion-row>",
           "\t\t<ion-col>",
             "\t\t\tion-col",
-          "\t</ion-col>",
+          "\t\t</ion-col>",
           "\t\t<ion-col>",
             "\t\t\tion-col",
-          "\t</ion-col>",
+          "\t\t</ion-col>",
           "\t\t<ion-col>",
             "\t\t\tion-col",
-          "\t</ion-col>",
+          "\t\t</ion-col>",
           "\t\t<ion-col>",
             "\t\t\tion-col",
-          "\t</ion-col>",
+          "\t\t</ion-col>",
         "\t</ion-row>",
       "</ion-grid>"
     ],
@@ -169,7 +169,7 @@
         "\t<ion-item>",
           "\t\t<ion-label>Armenia</ion-label>",
         "\t</ion-item>",
-      "\t</ion-item-group>",
+      "</ion-item-group>",
     ],
     "description": "Creates ionc-vue item group"
   },
@@ -262,5 +262,238 @@
       "</ion-menu>",
     ],
     "description": "Creates ionc-vue menu"
+  },
+  "ionic-vue Backdrop": {
+    "prefix": "ivbackdrop",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-backdrop></ion-backdrop>"
+    ],
+    "description": "Creates ionc-vue backdrop"
+  },
+  "ionic-vue Progress Bar": {
+    "prefix": "ivprogressbar",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-progress-bar></ion-progress-bar>"
+    ],
+    "description": "Creates ionc-vue progress bar"
+  },
+  "ionic-vue Skeleton Text": {
+    "prefix": "ivpskeletontext",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-skeleton-text animated></ion-skeleton-text>"
+    ],
+    "description": "Creates ionc-vue skeleton text"
+  },
+  "ionic-vue Spinner": {
+    "prefix": "ivpspinner",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-spinner></ion-spinner>"
+    ],
+    "description": "Creates ionc-vue spinner"
+  },
+  "ionic-vue Radio Group": {
+    "prefix": "ivradiogroup",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-radio-group>",
+        "\t<ion-item>",
+          "\t\t<ion-label>Cord</ion-label>",
+          "\t<ion-radio value=\"cord\"></ion-radio>",
+        "\t</ion-item>",
+        "\t<ion-item>",
+          "\t\t<ion-label>Duesenberg</ion-label>",
+          "\t\t<ion-radio value=\"duesenberg\"></ion-radio>",
+        "\t</ion-item>",
+        "\t<ion-item>",
+          "\t\t<ion-label>Hudson</ion-label>",
+          "\t\t<ion-radio value=\"hudson\"></ion-radio>",
+        "\t</ion-item>",
+        "\t<ion-item>",
+          "\t\t<ion-label>Packard</ion-label>",
+          "\t\t<ion-radio value=\"packard\"></ion-radio>",
+        "\t</ion-item>",
+        "\t<ion-item>",
+          "\t\t<ion-label>Studebaker</ion-label>",
+          "\t\t<ion-radio value=\"studebaker\"></ion-radio>",
+        "\t</ion-item>",
+      "</ion-radio-group>"
+    ],
+    "description": "Creates ionc-vue radio group"
+  },
+  "ionic-vue Radio": {
+    "prefix": "ivradio",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-item>",
+        "\t<ion-label>Griff</ion-label>",
+        "\t<ion-radio slot=\"start\" value=\"griff\"></ion-radio>",
+      "</ion-item>"
+    ],
+    "description": "Creates ionc-vue radio"
+  },
+  "ionic-vue Range": {
+    "prefix": "ivrange",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-range color=\"danger\" pin=\"true\"></ion-range>"
+    ],
+    "description": "Creates ionc-vue range"
+  },
+  "ionic-vue Range (min and max)": {
+    "prefix": "ivrangeminmax",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-range min=\"-200\" max=\"200\" color=\"secondary\">",
+        "\t<ion-label slot=\"start\">-200</ion-label>",
+        "\t<ion-label slot=\"end\">200</ion-label>",
+      "</ion-range>"
+    ],
+    "description": "Creates ionc-vue range (min and max)"
+  },
+  "ionic-vue Refresher": {
+    "prefix": "ivrefresher",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-refresher slot=\"fixed\" @ionRefresh=\"doRefresh($event)\">",
+        "\t<ion-refresher-content></ion-refresher-content>",
+      "</ion-refresher>"
+    ],
+    "description": "Creates ionc-vue refresher"
+  },
+  "ionic-vue Router": {
+    "prefix": "ivrouter",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-router>",
+        "\t<ion-route url=\"/tutorial\" component=\"page-tutorial\"></ion-route>",
+        "\t<ion-route url=\"/login\" component=\"page-login\"></ion-route>",
+        "\t<ion-route url=\"/account\" component=\"page-account\"></ion-route>",
+      "</ion-router>"
+    ],
+    "description": "Creates ionc-vue router"
+  },
+  "ionic-vue Route Redirect": {
+    "prefix": "ivrouteredirect",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-route-redirect from=\"/admin\" to=\"/login\"></ion-route-redirect>"
+    ],
+    "description": "Creates ionc-vue route redirect"
+  },
+  "ionic-vue Searchbar": {
+    "prefix": "ivsearchbar",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-searchbar></ion-searchbar>"
+    ],
+    "description": "Creates ionc-vue searchbar "
+  },
+  "ionic-vue Segment": {
+    "prefix": "ivsegment",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-segment @ionChange=\"segmentChanged($event)\">",
+      "<!-- segment content -->",
+      "</ion-segment>"
+    ],
+    "description": "Creates ionc-vue segment"
+  },
+  "ionic-vue Segment Button": {
+    "prefix": "ivsegmentbutton",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-segment-button value=\"enemies\">",
+      "\t<ion-label>Enemies</ion-label>",
+      "</ion-segment-button>"
+    ],
+    "description": "Creates ionc-vue segment button"
+  },
+  "ionic-vue Select": {
+    "prefix": "ivselect",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-item>",
+        "\t<ion-label>Hair Color</ion-label>",
+        "\t<ion-select value=\"brown\" ok-text=\"Okay\" cancel-text=\"Dismiss\">",
+          "\t\t<ion-select-option value=\"brown\">Brown</ion-select-option>",
+          "\t\t<ion-select-option value=\"blonde\">Blonde</ion-select-option>",
+          "\t\t<ion-select-option value=\"black\">Black</ion-select-option>",
+          "\t\t<ion-select-option value=\"red\">Red</ion-select-option>",
+        "\t</ion-select>",
+      "</ion-item>",
+    ],
+    "description": "Creates ionc-vue select"
+  },
+  "ionic-vue Select Option": {
+    "prefix": "ivselectoption",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-select-option value=\"brown\">Brown</ion-select-option>",
+    ],
+    "description": "Creates ionc-vue select option"
+  },
+  "ionic-vue Slides": {
+    "prefix": "ivslides",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-slides pager=\"true\" :options=\"slideOpts\">",
+        "\t<ion-slide>",
+          "\t\t<h1>Slide 1</h1>",
+        "\t</ion-slide>",
+        "\t<ion-slide>",
+          "\t\t<h1>Slide 2</h1>",
+        "\t</ion-slide>",
+        "\t<ion-slide>",
+          "\t\t<h1>Slide 3</h1>",
+        "\t</ion-slide>",
+      "</ion-slides>",
+    ],
+    "description": "Creates ionc-vue slides"
+  },
+  "ionic-vue Tabs": {
+    "prefix": "ivstabs",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-tabs @ionTabsWillChange=\"beforeTabChange\" @ionTabsDidChange=\"afterTabChange\">",
+        "\t<ion-tab-bar slot=\"bottom\">",
+          "\t\t<ion-tab-button tab=\"schedule\" href=\"/tabs/schedule\">",
+            "\t\t\t<ion-icon :icon=\"calendar\"></ion-icon>",
+            "\t\t\t<ion-label>Schedule</ion-label>",
+            "\t\t\t<ion-badge>6</ion-badge>",
+          "\t\t</ion-tab-button>",
+          "\t\t<ion-tab-button tab=\"speakers\" href=\"/tabs/speakers\">",
+            "\t\t\t<ion-icon :icon=\"personCircle\"></ion-icon>",
+            "\t\t\t<ion-label>Speakers</ion-label>",
+          "\t\t</ion-tab-button>",
+        "\t</ion-tab-bar>",
+      "</ion-tabs>",
+    ],
+    "description": "Creates ionc-vue tabs"
+  },
+  "ionic-vue Tab Bar": {
+    "prefix": "ivstabbar",
+    "scope": "html,vue,vue-html",
+    "body": [
+        "<ion-tab-bar slot=\"bottom\">",
+        "<!-- content -->",
+        "</ion-tab-bar>"
+    ],
+    "description": "Creates ionc-vue tabs bar"
+  },
+  "ionic-vue Tab Button": {
+    "prefix": "ivstabbutton",
+    "scope": "html,vue,vue-html",
+    "body": [
+      "<ion-tab-button tab=\"schedule\" href=\"/tabs/schedule\">",
+        "\t<ion-icon :icon=\"calendar\"></ion-icon>",
+        "\t<ion-label>Schedule</ion-label>",
+        "\t<ion-badge>6</ion-badge>",
+      "</ion-tab-button>",
+    ],
+    "description": "Creates ionc-vue tabs button"
   }
 }

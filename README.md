@@ -27,6 +27,20 @@ All snippets are sourced from [ionic website](https://ionicframework.com/docs/co
 - Image
 - Thumbnail
 - Menu
+- Backdrop
+- Progress Bar
+- Skeleton Text
+- Spinner
+- Radio Group
+- Radio
+- Range
+- Refresher
+- Router / Router Redirect
+- Searchbar
+- Segment / Segment Button
+- Select / Select Option
+- Slides
+- Tabs / Tab bar / Tab Button
 
 ![Extension gif](/example.gif)
 
@@ -37,6 +51,11 @@ All snippets are sourced from [ionic website](https://ionicframework.com/docs/co
 - To use snippets effectively you will have to mannually import each ionic component used in the snippet `import { componetName } from @ionic/vue`. We are working on solving this issue.
 
 ## Release Notes
+
+### 0.1.3
+
+Fix indentation for `<ion-grid>` and `<ion-item-group>`.
+Added snippets for Backdrop, Progress Bar, Skeleton Text, Spinner, Radio Group, Radio, Range, Refresher, Router / Router Redirect, Searchbar, Segment / Segment Button, Select / Select Option, Slides and, Tabs / Tab bar / Tab Button.
 
 ### 0.1.2
 
